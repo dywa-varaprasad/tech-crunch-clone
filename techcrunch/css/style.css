@@ -1,0 +1,145 @@
+/* Box Model Hack */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  /* background-color: black; */
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav,main,aside{
+  /* border: 2px solid red; */
+  height: 70vh;
+  width: 10%;
+  float: left;
+}
+
+main{
+width: 50%;
+
+height: 60vh;}
+
+main > img{
+  width: 100%;
+  height: 80%;
+}
+
+aside{
+  width: 40%;
+  height: 70vh;
+}
+
+
+aside  a{
+  text-decoration: none;
+}
+
+aside h2{
+  margin: 12px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+}
+
+
+aside span{
+   height: 100px;
+}
+
+
+
+
+
+nav>img{
+  width: 40%;
+  height: 12%;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  margin: 15px 20px;
+
+font-size: 18px;
+}
+
+.join{
+  font-size: 10px;
+  font-variant: small-caps;
+  font-weight: 800;
+  color: gold;
+  margin-top: -13px;
+}
+nav ul li{
+}
+
+
+.bottom{
+  width: 90%;
+  height: 30vh;
+  /* border: 2px solid black; */
+  clear: both;
+  margin-left: 10%;
+}
+
+.bottom h3{
+  height: 3vh;
+}
+
+.bottom section{
+  height: 100%;
+  width: 33.33333%;
+  /* border: 1px solid red; */
+float: left;
+padding:5px;
+}
+
+
+.bottom section h2, .bottom p{
+  margin-top: 30px;
+}
+
+.bottom section img{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
